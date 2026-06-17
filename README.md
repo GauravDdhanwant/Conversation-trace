@@ -96,15 +96,6 @@ Works without `OPENAI_API_KEY` using rule-based fallback (prefix notes with `Dec
 - Automated KPI ingestion from production systems
 - Voice agents, mobile apps
 
-## Deploy
-
-### Railway (recommended — SQLite needs persistent disk)
-
-1. Push repo to GitHub
-2. Create new Railway project → Deploy from GitHub
-3. Add persistent volume mounted at `/app/data`
-4. Set env: `DATABASE_PATH=/app/data/conversation-trace.db`
-5. Optional: `OPENAI_API_KEY`
 
 ### Local production
 
@@ -113,12 +104,6 @@ npm run build
 npm start
 ```
 
-## Submission
-
-1. Public GitHub repo
-2. Live deployed URL (or local demo with README instructions)
-3. 5–10 min video — see [docs/VIDEO_SCRIPT.md](docs/VIDEO_SCRIPT.md)
-4. Submit via Damco challenge page
 
 ## License
 
