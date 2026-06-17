@@ -18,11 +18,6 @@ Reduce time from call end to structured action items from ~15 minutes to under 2
 | **Daily status** | One-click draft from open items, recent engagements, and metrics |
 | **Outcome dashboard** | Baseline → current → target with conviction statement and progress |
 
-## Live demo
-
-> Deploy to Railway (see [Deploy](#deploy)) and add your URL here before submission.
-
-Local: [http://localhost:3000](http://localhost:3000)
 
 ## Quick start
 
@@ -33,16 +28,6 @@ cp .env.example .env.local   # optional — add OPENAI_API_KEY for AI extraction
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) — demo project auto-seeds on first load.
-
-### Demo walkthrough
-
-1. Click **Open Project** on the Acme Corp project
-2. Review outcome metric (45 → 38 → 15 min) and conviction statement
-3. **Post-Call Capture** — paste call notes, click Extract & Save
-4. **Generate Today's Update** — one-click daily status
-5. **Record Snapshot** — update metric and watch progress bar move
-6. **Edge case** — re-paste identical notes → idempotent response, no duplicates
 
 ## Tech stack
 
